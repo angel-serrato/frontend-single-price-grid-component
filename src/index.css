@@ -1,8 +1,24 @@
 :root {
-  -cyan: hsl(179, 62%, 43%);
-  -bright-yellow: hsl(71, 73%, 54%);
-  -light-gray: hsl(204, 43%, 93%);
-  -grayish-blue: hsl(218, 22%, 67%);
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+  --text-size-6: clamp(0.9375rem, 0.9196rem + 0.0893vw, 1rem);
+  --text-size-5: clamp(1.125rem, 1.0893rem + 0.1786vw, 1.25rem);
+  --text-size-4: clamp(1.35rem, 1.2893rem + 0.3036vw, 1.5625rem);
+  --text-size-3: clamp(1.62rem, 1.5248rem + 0.4759vw, 1.9531rem);
+  --text-size-2: clamp(1.944rem, 1.8019rem + 0.7106vw, 2.4414rem);
+  --text-size-1: clamp(2.3328rem, 2.1274rem + 1.0271vw, 3.0518rem);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  background-color: var(--grayish-blue);
 }
 
 .karla-400 {
