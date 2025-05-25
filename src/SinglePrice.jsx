@@ -14,25 +14,26 @@ function SinglePrice() {
         </p>
       </div>
 
-      <div className="subscription-card__body">
-        <div className="subscription-card__price-section">
-          <h2 className="subscription-card__price-title">Monthly Subscription</h2>
-          <p className="subscription-card__price">$29 per month</p>
-          <p className="subscription-card__note">Full access for less than $1 a day</p>
-          <button className="subscription-card__button">Sign Up</button>
+      <div className="subscription-card__pricing">
+        <h2 className="subscription-card__pricing-title">Monthly Subscription</h2>
+        <div className="subscription-card__pricing-info">
+          <p className="subscription-card__pricing-amount">$29</p>
+          <p className='subscription-card__pricing-period'>per month</p>
         </div>
+        <p className="subscription-card__pricing-note">Full access for less than $1 a day</p>
+        <button className="subscription-card__pricing-button">Sign Up</button>
       </div>
 
       <div className="subscription-card__features">
         <h3 className="subscription-card__features-title">Why Us</h3>
         <ul className="subscription-card__features-list">
-          <li className="subscription-card__feature">Tutorials by industry experts</li>
-          <li className="subscription-card__feature">Peer & expert code review</li>
-          <li className="subscription-card__feature">Coding exercises</li>
-          <li className="subscription-card__feature">Access to our GitHub repos</li>
-          <li className="subscription-card__feature">Community forum</li>
-          <li className="subscription-card__feature">Flashcard decks</li>
-          <li className="subscription-card__feature">New videos every week</li>
+          <li className="subscription-card__feature-item">Tutorials by industry experts</li>
+          <li className="subscription-card__feature-item">Peer & expert code review</li>
+          <li className="subscription-card__feature-item">Coding exercises</li>
+          <li className="subscription-card__feature-item">Access to our GitHub repos</li>
+          <li className="subscription-card__feature-item">Community forum</li>
+          <li className="subscription-card__feature-item">Flashcard decks</li>
+          <li className="subscription-card__feature-item">New videos every week</li>
         </ul>
       </div>
     </div>

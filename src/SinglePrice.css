@@ -1,16 +1,110 @@
 .subscription-card {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    border-radius: 10px;
+    max-width: 85vw;
+    border-radius: var(--space-xs);
+    overflow: hidden;
 }
 
 .subscription-card__header {
     background-color: var(--light-gray);
+    padding-top: var(--space-l) !important;
+    padding: var(--space-m-l);
 }
 
-.subscription-card__body {
+.subscription-card__title {
+    margin: 0;
+    color: var(--cyan);
+    font-size: var(--text-size-5);
+    font-weight: 700;
+}
+
+.subscription-card__guarantee {
+    font-size: var(--text-size-6);
+    color: var(--bright-yellow);
+    font-weight: 700;
+    margin-top: var(--space-m);
+}
+
+.subscription-card__description {
+    color: var(--grayish-blue);
+    font-size: var(--text-size-7);
+    line-height: 1.6;
+
+}
+
+.subscription-card__pricing {
     background-color: var(--cyan);
+    padding: var(--space-m-l);
+}
+
+.subscription-card__pricing-info {
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-xs);
+    justify-content: start;
+    align-items: center;
+    margin-top: var(--space-m);
+}
+
+.subscription-card__pricing-amount {
+    font-size: var(--text-size-2);
+    color: var(--light-gray);
+    margin: 0;
+    font-weight: 700;
+}
+
+.subscription-card__pricing-period {
+    color: var(--light-gray);
+    font-weight: lighter;
+    margin: 0;
+}
+
+.subscription-card__pricing-title {
+    font-size: var(--text-size-5);
+    color: var(--light-gray);
+    margin: 0;
+}
+
+.subscription-card__pricing-note {
+    font-size: var(--text-size-6);
+    color: var(--light-gray);
+    font-weight: 400;
+}
+
+.subscription-card__pricing-button {
+    border: none;
+    background-color: var(--bright-yellow);
+    color: var(--light-gray);
+    width: 100%;
+    padding: var(--space-s);
+    border-radius: var(--space-xs);
+    margin-top: var(--space-s);
+    box-shadow:
+        rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 .subscription-card__features {
-    background-color: var(--cyan);
+    background-color: var(--light-cyan);
+    padding: var(--space-m-l);
+}
+
+.subscription-card__features-title {
+    margin: 0;
+    color: var(--light-gray);
+    font-size: var(--text-size-5);
+}
+
+.subscription-card__features-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: var(--space-s);
+    margin-bottom: 0;
+}
+
+.subscription-card__features-list .subscription-card__feature-item {
+    color: var(--light-gray);
+    font-size: var(--text-size-6);
+    font-weight: 100;
+    margin-bottom: var(--space-3xs);
 }
