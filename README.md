@@ -20,7 +20,7 @@ It displays a subscription offer with pricing details, a list of features, and a
 
 ### Screenshot
 
-
+![singleprice](https://github.com/user-attachments/assets/2ce53242-cb9a-4210-b625-1d9279753d34)
 
 ### Links
 
