@@ -57,7 +57,7 @@ body {
   align-items: center;
   margin: 0;
   height: 100vh;
-  background-color: var(--grayish-blue);
+  background-color: var(--light-gray);
   font-family: "Karla", sans-serif;
 }
 
