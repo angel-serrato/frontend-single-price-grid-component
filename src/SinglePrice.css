@@ -7,7 +7,7 @@
 }
 
 .subscription-card__header {
-    background-color: var(--light-gray);
+    background-color: white;
     padding-top: var(--space-l) !important;
     padding: var(--space-m-l);
 }
